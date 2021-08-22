@@ -3319,36 +3319,36 @@ struct Random_t6C9E9775A149D0ADCFEB4B252C408F03EE870118  : public RuntimeObject
 {
 public:
 	// System.Int32 System.Random::inext
-	int32_t ___inext_0;
+	int32_t ___inext_3;
 	// System.Int32 System.Random::inextp
-	int32_t ___inextp_1;
+	int32_t ___inextp_4;
 	// System.Int32[] System.Random::SeedArray
-	Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* ___SeedArray_2;
+	Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* ___SeedArray_5;
 
 public:
-	inline static int32_t get_offset_of_inext_0() { return static_cast<int32_t>(offsetof(Random_t6C9E9775A149D0ADCFEB4B252C408F03EE870118, ___inext_0)); }
-	inline int32_t get_inext_0() const { return ___inext_0; }
-	inline int32_t* get_address_of_inext_0() { return &___inext_0; }
-	inline void set_inext_0(int32_t value)
+	inline static int32_t get_offset_of_inext_3() { return static_cast<int32_t>(offsetof(Random_t6C9E9775A149D0ADCFEB4B252C408F03EE870118, ___inext_3)); }
+	inline int32_t get_inext_3() const { return ___inext_3; }
+	inline int32_t* get_address_of_inext_3() { return &___inext_3; }
+	inline void set_inext_3(int32_t value)
 	{
-		___inext_0 = value;
+		___inext_3 = value;
 	}
 
-	inline static int32_t get_offset_of_inextp_1() { return static_cast<int32_t>(offsetof(Random_t6C9E9775A149D0ADCFEB4B252C408F03EE870118, ___inextp_1)); }
-	inline int32_t get_inextp_1() const { return ___inextp_1; }
-	inline int32_t* get_address_of_inextp_1() { return &___inextp_1; }
-	inline void set_inextp_1(int32_t value)
+	inline static int32_t get_offset_of_inextp_4() { return static_cast<int32_t>(offsetof(Random_t6C9E9775A149D0ADCFEB4B252C408F03EE870118, ___inextp_4)); }
+	inline int32_t get_inextp_4() const { return ___inextp_4; }
+	inline int32_t* get_address_of_inextp_4() { return &___inextp_4; }
+	inline void set_inextp_4(int32_t value)
 	{
-		___inextp_1 = value;
+		___inextp_4 = value;
 	}
 
-	inline static int32_t get_offset_of_SeedArray_2() { return static_cast<int32_t>(offsetof(Random_t6C9E9775A149D0ADCFEB4B252C408F03EE870118, ___SeedArray_2)); }
-	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* get_SeedArray_2() const { return ___SeedArray_2; }
-	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32** get_address_of_SeedArray_2() { return &___SeedArray_2; }
-	inline void set_SeedArray_2(Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* value)
+	inline static int32_t get_offset_of_SeedArray_5() { return static_cast<int32_t>(offsetof(Random_t6C9E9775A149D0ADCFEB4B252C408F03EE870118, ___SeedArray_5)); }
+	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* get_SeedArray_5() const { return ___SeedArray_5; }
+	inline Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32** get_address_of_SeedArray_5() { return &___SeedArray_5; }
+	inline void set_SeedArray_5(Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32* value)
 	{
-		___SeedArray_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___SeedArray_2), (void*)value);
+		___SeedArray_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___SeedArray_5), (void*)value);
 	}
 };
 
@@ -28941,7 +28941,7 @@ IL_005d:
 		NullCheck(L_29);
 		NullCheck(L_28);
 		int32_t L_30;
-		L_30 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(5 /* System.Int32 System.Random::Next(System.Int32) */, L_28, ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length))));
+		L_30 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(6 /* System.Int32 System.Random::Next(System.Int32) */, L_28, ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length))));
 		V_3 = L_30;
 		WorkStealingQueueU5BU5D_t0A012EBE228687C2D6BB90870F783BA69EEFBD8C* L_31 = V_2;
 		NullCheck(L_31);
